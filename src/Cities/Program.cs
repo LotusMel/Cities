@@ -15,7 +15,10 @@ namespace Cities
             IComparer<City> statecomp = new StateComparer();
             IComparer<City> popcomp = new PopulationComparer();
             IComparer<City> areacomp = new AreaComparer();
-            cities.Sort(areacomp);
+            cities.Sort(comparer);
+            //cities.Sort(statecomp);
+            //cities.Sort(popcomp);
+            //cities.Sort(areacomp);
 
             PrintCities(cities);
 
