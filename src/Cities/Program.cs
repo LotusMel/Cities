@@ -18,7 +18,7 @@ namespace Cities
             //cities.Sort(comparer);
             //cities.Sort(statecomp);
             //cities.Sort(popcomp);
-            cities.Sort(areacomp);
+            //cities.Sort(areacomp);
 
             PrintCities(cities);
 
